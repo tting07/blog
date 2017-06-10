@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java
+
+在Gemfile添加 gem 'therubyracer'
